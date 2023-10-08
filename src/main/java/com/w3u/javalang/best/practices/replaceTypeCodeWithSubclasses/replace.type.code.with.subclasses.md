@@ -51,6 +51,7 @@ class Manager extends Employee {}
 
             
 // 直接继承: 组合 + 继承（在其成员上使用）
+// State/Stategy pattern
 class Employee {
     private EmployeeType employeeType;
 } 
